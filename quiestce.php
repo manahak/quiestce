@@ -22,8 +22,8 @@ $questions = [
     "Porte-t-il un chapeau ?" => 0,
     "A-t-il des cheveux ?" => 1,
     "Porte-t-il des lunettes ?" => 2,
-    "A-t-il une barbe/moustache ?" => 3,
-    "A-t-il des boucles d'oreille ?" => 4,
+    "A-t-il une barbe ?" => 3,
+    "A-t-il une moustache ?" => 4,
 ];
 
 $rep_finale = "";
