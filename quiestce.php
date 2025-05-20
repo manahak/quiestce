@@ -87,8 +87,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p>Choisissez un personnage et répondez aux questions;</p>
 
     <div class="images">
-        <img src="https://raw.githubusercontent.com/manahak/quiestce/refs/heads/main/1000007595.jpg?token=GHSAT0AAAAAADEEC4T4KVPSB7BYJHTWFIYY2BMSLJA" width="40%" alt="Image 1">
-        <img src="https://raw.githubusercontent.com/manahak/quiestce/refs/heads/main/1000007594.jpg?token=GHSAT0AAAAAADEEC4T5C575NTEBQWLGENAA2BMSSVA" width="40%" alt="Image 2">
+        <img src="https://raw.githubusercontent.com/manahak/quiestce/refs/heads/main/1000007595.jpg" width="40%" alt="Image 1">
+        <img src="https://raw.githubusercontent.com/manahak/quiestce/refs/heads/main/1000007594.jpg" width="40%" alt="Image 2">
     </div>
 
 
