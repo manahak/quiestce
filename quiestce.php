@@ -22,8 +22,8 @@ $questions = [
     "Porte-t-il un chapeau ?" => 0,
     "A-t-il des cheveux ?" => 1,
     "Porte-t-il des lunettes ?" => 2,
-    "A-t-il une barbe ?" => 3,
-    "A-t-il une moustache ?" => 4,
+    "A-t-il une barbe/moustache ?" => 3,
+    "A-t-il des boucles d'oreille ?" => 4,
 ];
 
 $rep_finale = "";
@@ -77,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         select { padding: 5px; }
         button { padding: 10px 50px; margin-top: 15px; }
         .result { margin-top: 20px; padding: 15px; border-radius: 5px; }
+
     </style>
 
 </head>
@@ -84,6 +85,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <h1>Qui est-ce ?</h1>
     <p>Choisissez un personnage et répondez aux questions;</p>
+
+    <div class="images">
+        <img src="https://raw.githubusercontent.com/manahak/quiestce/refs/heads/main/1000007595.jpg?token=GHSAT0AAAAAADEEC4T4KVPSB7BYJHTWFIYY2BMSLJA" width="40%" alt="Image 1">
+        <img src="https://raw.githubusercontent.com/manahak/quiestce/refs/heads/main/1000007594.jpg?token=GHSAT0AAAAAADEEC4T5C575NTEBQWLGENAA2BMSSVA" width="40%" alt="Image 2">
+    </div>
+
 
     <form method="post">
         <?php foreach ($questions as $question => $index): ?>
